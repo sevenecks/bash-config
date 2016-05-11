@@ -7,3 +7,8 @@ alias gp='git pull'
 alias push='git push'
 alias gaa='git add .'
 alias gc="git commit -m'"
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+	    . `brew --prefix`/etc/bash_completion
+fi
+source ~/.git-prompt.sh
+source ~/git-flow-completion.bash
