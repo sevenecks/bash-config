@@ -33,5 +33,6 @@ alias gphsm='echo Pushing Master to Heroku-Stage; git push heroku-stage master'
 alias gpod='echo Pushing Develop to Origin; git push origin develop'
 alias gpom='echo Pushing Master to Origin; git push origin master'
 alias gs='git status'
-
+	
+export PATH=~/.composer/vendor/bin:$PATH
 
