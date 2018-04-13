@@ -13,7 +13,7 @@ fi
 PS1='\[\033[00;33m\]\u\[\033[00;00m\]@\[\033[00;32m\]\h\[\033[00;35m\]\[\033[01;37m\]\w$(parse_git_branch)\[\033[00m\]\n\$ '
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
-alias ls='ls -la'
+alias ls='ls -laFh'
 alias bp='vim ~/.bash_profile'
 if [ -f ~/.bashrc ]; then
     alias bp-reload='source ~/.bashrc'
