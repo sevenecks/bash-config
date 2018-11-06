@@ -1,3 +1,7 @@
 !.gitconfig
 !.bash_profile
 !.bash_rc
+<<<<<<< HEAD
+!.bash_aliases
+=======
+>>>>>>> 101b538abd8e04d6fdee1e99b1e72488a4558671

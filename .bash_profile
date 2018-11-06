@@ -7,8 +7,10 @@ parse_git_branch() {
       git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \[\1\]/'
   fi
 }
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-  . $(brew --prefix)/etc/bash_completion
+if hash gdate 2>/dev/null; then
+    if [ -f $(brew --prefix)/etc/bash_completion ]; then
+      . $(brew --prefix)/etc/bash_completion
+    fi
 fi
 PS1='\[\033[00;33m\]\u\[\033[00;00m\]@\[\033[00;32m\]\h\[\033[00;35m\]\[\033[01;37m\]\w$(parse_git_branch)\[\033[00m\]\n\$ '
 export CLICOLOR=1
