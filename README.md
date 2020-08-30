@@ -1,7 +1,6 @@
-# mac-bash-config
+# mac & linux bash config
 
-## Prerequisties
-Configuration File for .bash_profile for macos as well as .gitconfig file
+## Prerequisties for Mac
 
 1. Install Brew
 2. Install Git
@@ -17,3 +16,7 @@ echo "source ~/bash-config/.bash_profile" >> ~/.bash_profile
 
 ### Linux
 echo "source ~/bash-config/.bash_profile" >> ~/.bashrc
+
+### Mac Style Keybindings for copy/paste/etc on Linux
+
+1. Install [https://github.com/rbreaves/kinto]
