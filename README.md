@@ -20,3 +20,4 @@ echo "source ~/bash-config/.bash_profile" >> ~/.bashrc
 ### Mac Style Keybindings for copy/paste/etc on Linux
 
 1. Install [https://github.com/rbreaves/kinto]
+2. If that doesn't work try [https://github.com/RedBearAK/toshy]
